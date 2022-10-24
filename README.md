@@ -37,3 +37,9 @@ Every merge on the `main` branch will trigger a build and push for the Docker im
 The image will always be tagged only with `latest` to keep everything simple.
 
 Details in [.github/workflows/publish.yaml](.github/workflows/publish.yaml).
+
+## References
+
+- Docker images: https://github.com/devcontainers/images/tree/main/src
+- Features: https://github.com/devcontainers/features/tree/main/src
+- Run in CI: https://github.com/devcontainers/ci#github-action
