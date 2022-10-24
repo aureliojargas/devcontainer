@@ -11,6 +11,7 @@ LABEL org.opencontainers.image.description="Shell and Python dev tools (Ubuntu)"
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install --no-install-recommends \
     ed \
+    fish \
     git-revise \
     shellcheck \
     shfmt \

@@ -8,7 +8,6 @@
     // https://github.com/devcontainers/features/tree/main/src
     "features": {
         "docker-in-docker": "latest",
-        "fish": "latest",
         "github-cli": "latest",
         "python": "latest",
         "sshd": "latest"
