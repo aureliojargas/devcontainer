@@ -1,16 +1,14 @@
 // https://aka.ms/devcontainer.json
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.245.2/containers/ubuntu
 {
-    "name": "Shell and Python dev tools (Ubuntu)",
+    "name": "Devcontainer for aureliojargas/devcontainer",
     "build": {
         "dockerfile": "Dockerfile"
     },
     // https://github.com/devcontainers/features/tree/main/src
     "features": {
-        "docker-in-docker": "latest",
-        "github-cli": "latest",
-        "python": "latest",
-        "sshd": "latest"
+        // Just in case I need to build this image manually
+        "docker-in-docker": "latest"
     },
     // https://aka.ms/vscode-remote/containers/non-root
     "remoteUser": "vscode"
