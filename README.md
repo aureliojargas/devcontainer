@@ -30,6 +30,12 @@ Examples:
 
 - https://github.com/aureliojargas/clitest/blob/master/.devcontainer/devcontainer.json
 
+## Personalization
+
+[My dotfiles](https://github.com/aureliojargas/dotfiles) are inserted into the running container `$HOME` during the init phase, by automatically running the [setup script](https://github.com/aureliojargas/dotfiles/blob/main/setup). Note that this repository must be set in GitHub→Settings→Codespaces→Dotfiles.
+
+**My VS Code settings and extensions** are synchronized into the web VS Code instance in Codespaces by using the official [Settings Sync](https://code.visualstudio.com/docs/editor/settings-sync) feature.
+
 ## Automatic publishing
 
 Every merge on the `main` branch will trigger a build and push for the Docker image into the GitHub Container Registry.
