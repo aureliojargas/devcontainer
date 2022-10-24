@@ -6,7 +6,7 @@ Image identifier: `ghcr.io/aureliojargas/devcontainer:latest`
 
 ## The Docker image
 
-This is Ubuntu 22.04 with `git` plus dev tools for Shell (`shfmt`, `shellcheck`) and Python.
+This is Ubuntu 22.04 with `git` plus dev tools for Shell (`shfmt`, `shellcheck`) and Python (`black`, `pylint`).
 
 There's also some extra tools that I cannot work without:
 

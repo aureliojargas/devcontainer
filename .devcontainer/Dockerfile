@@ -10,9 +10,12 @@ LABEL org.opencontainers.image.description="Shell and Python dev tools (Ubuntu)"
 # Install additional OS packages
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install --no-install-recommends \
+    black \
     ed \
     fish \
     git-revise \
+    pylint \
+    python3-pip \
     shellcheck \
     shfmt \
     tig \
