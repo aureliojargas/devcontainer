@@ -28,7 +28,15 @@ Just add the following line to your `.devcontainer/devcontainer.json` file:
 
 Examples:
 
-- https://github.com/aureliojargas/clitest/blob/master/.devcontainer/devcontainer.json
+- https://github.com/aureliojargas/replace/blob/main/.devcontainer/devcontainer.json
+
+- https://github.com/aureliojargas/sedsed/blob/main/.devcontainer/devcontainer.json
+
+- https://github.com/aureliojargas/clitest/blob/main/.devcontainer/devcontainer.json
+
+- https://github.com/aureliojargas/sedparse/blob/main/.devcontainer/devcontainer.json
+
+- https://github.com/aureliojargas/txt2regex/blob/main/.devcontainer/devcontainer.json
 
 ## Personalization
 
