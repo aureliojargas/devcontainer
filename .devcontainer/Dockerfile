@@ -21,3 +21,8 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     shfmt \
     tig \
     vim
+
+# Install 'replace' script, that I use frequently.
+# Note that 'vscode' is the default container user.
+ADD --chown=vscode:vscode https://raw.githubusercontent.com/aureliojargas/replace/main/replace.py /usr/local/bin/replace
+RUN chmod +x /usr/local/bin/replace
